@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Marks calculator</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
-	<body>
+
 		<!DOCTYPE html>
 		<html lang="en">
 			<head>
@@ -15,7 +6,7 @@
 				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>website</title>
-				<link rel="stylesheet" href="css/style.css" />
+				<link rel="stylesheet" href="style.css" />
 			</head>
 			<body>
 				<header class="header">
@@ -26,9 +17,10 @@
 							<li><a href="#about" class="navbar-link"> About </a></li>
 							<li><a href="#gallery" class="navbar-link">gallery</a></li>
 							<li><a href="#Service" class="navbar-link"> Services </a></li>
-							<li><a href="#contact" class="navbar-link"> Contact </a></li>
+							<li><a href="#contect" class="navbar-link"> Contact </a></li>
 							<li>
 								<a href="#" id="free" class="btn navbar-btn">Free Code</a>
+								<li><a href="#footer" class="navbar-link" id="foot"> Bottom↓</a></li>
 							</li>
 						</ul>
 					</nav>
@@ -37,7 +29,6 @@
 						<ion-icon name="close" class="mobile-nav-icon"></ion-icon>
 					</div>
 				</header>
-
 				<main>
 					<section id="home" class="section section-hero">
 						<div class="container grid grid-two-column">
@@ -74,7 +65,7 @@
 							</div>
 							<!-- right side hero section  -->
 							<div class="hero-image">
-								<img src="2.jpeg" height="800px" width="600px" />
+								<img src="2.jpeg" height="900px" width="600px" />
 								<div class="hero-img-overlay">
 									<p class="para">
 										“Far far away, behind the word mountains, far from the
@@ -129,10 +120,7 @@
 								<img src="3.jpg" height="800px" width="800px" />
 								<div class="hero-img-overlay">
 									<p class="para">
-										“Far far away, behind the word mountains, far from the
-										countries Vokalia and Consonantia, there live the blind
-										texts. Separated they live in Bookmarksgrove.”
-									</p>
+										A web developer is well versed in these three technologies. They can read other people’s code and make changes to it. They can find and debug bugs (shortcomings in existing code). A web developer might, at times, work on a new project (a new website) from scratch, or may have to work on an existing website and make it better.			</p>
 									<p class="para">About</p>
 									<p class="para">Front-End Developer</p>
 								</div>
@@ -146,6 +134,7 @@
 						<img
 							src="4.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openpic(this.src)"
@@ -153,6 +142,7 @@
 						<img
 							src="5.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openpic(this.src)"
@@ -160,6 +150,7 @@
 						<img
 							src="6.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openpic(this.src)"
@@ -167,6 +158,7 @@
 						<img
 							src="7.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openpic(this.src)"
@@ -174,6 +166,7 @@
 						<img
 							src="8.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openpic(this.src)"
@@ -181,6 +174,7 @@
 						<img
 							src="9.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -188,6 +182,7 @@
 						<img
 							src="10.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -195,6 +190,7 @@
 						<img
 							src="11.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -202,6 +198,7 @@
 						<img
 							src="12.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -209,6 +206,7 @@
 						<img
 							src="13.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -216,6 +214,7 @@
 						<img
 							src="13.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -223,6 +222,7 @@
 						<img
 							src="9.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -230,6 +230,7 @@
 						<img
 							src="10.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
@@ -237,12 +238,178 @@
 						<img
 							src="11.jpg"
 							id="img"
+							class="image-flip"
 							height="200px"
 							width="200px"
 							onclick="openFullImg(this.src)"
 						/>
 					</div>
 				</div>
+				<div id="Service" class="services">
+					<div class="max-width">
+						<h1>Our Services</h1>
+						<div class="content">
+							<div class="card">
+								<div class="box">
+									<img src="1.png" />
+									<h3>Web Development</h3>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Accusamus incidunt labore debitis ea repudiandae numquam.
+									</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="box">
+									<img src="0.6.png" />
+									<h3>Grapics Design</h3>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Accusamus incidunt labore debitis ea repudiandae numquam.
+									</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="box">
+									<img src="04.png" />
+									<h3>App Development</h3>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Accusamus incidunt labore debitis ea repudiandae numquam.
+									</p>
+								</div>
+							</div>
+							<div class="card">
+								<div class="box">
+									<img src="ad.png" />
+									<h3>Advertising</h3>
+									<p>
+										Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+										Accusamus incidunt labore debitis ea repudiandae numquam.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="contect" class="container-box">
+					<span class="big-circle"></span>
+					<img src="img/shape.png" class="square" alt="" />
+					<div class="form">
+						<div class="contact-info">
+							<h3 class="title">Let's get in touch</h3>
+							<p class="text">
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+								dolorum adipisci recusandae praesentium dicta!
+							</p>
+
+							<div class="info">
+								<div class="information">
+									<img src="" class="icon" alt="" />
+									<p>92 Cherry Drive Uniondale, NY 11553</p>
+								</div>
+								<div class="information">
+									<img src="img/email.png" class="icon" alt="" />
+									<p>lorem@ipsum.com</p>
+								</div>
+								<div class="information">
+									<img src="img/phone.png" class="icon" alt="" />
+									<p>123-456-789</p>
+								</div>
+							</div>
+
+							<div class="social-media">
+								<p>Connect with us :</p>
+								<div class="social-icons">
+									<img src="t.png" id="icon" />
+									.
+									<img src="em.png" id="icon"/>
+									.
+									<img src="ph.png" id="ip"/>
+									.
+									<img src="fa.png" id="icon"/>
+									
+								</div>
+							</div>
+						</div>
+                       <h1 class="he"> Contect Us</h1>
+						<div class="contact-form">
+							<span class="circle one"></span>
+							<span class="circle two"></span>
+
+							<form action="index.html" autocomplete="off">
+								<h3 class="title">Contact us</h3>
+								<div class="input-container">
+									<input type="text" name="name" class="input" />
+									<label for="">Username</label>
+									<span>Username</span>
+								</div>
+								<div class="input-container">
+									<input type="email" name="email" class="input" />
+									<label for="">Email</label>
+									<span>Email</span>
+								</div>
+								<div class="input-container">
+									<input type="tel" name="phone" class="input" />
+									<label for="">Phone</label>
+									<span>Phone</span>
+								</div>
+								<div class="input-container textarea">
+									<textarea name="message" class="input"></textarea>
+									<label for="">Message</label>
+									<span>Message</span>
+								</div>
+								<input type="submit" value="Send" id="btn"  class="btn" />
+							</form>
+						</div>
+					</div>
+				</div>
+				<footer id="footer" class="footer">
+					<div class="container">
+						<div class="row">
+							<div class="footer-col">
+								<h4>company</h4>
+								<ul>
+									<li><a href="#home">My Home</a></li>
+									<li><a href="#about">About Us</a></li>
+									<li><a href="#gallery">gallery</a></li>
+									<li><a href="#contect">Content Us</a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>get help</h4>
+								<ul>
+									<li><a href="#">FAQ</a></li>
+									<li><a href="#">shipping</a></li>
+									<li><a href="#">returns</a></li>
+									<li><a href="#">order status</a></li>
+									<li><a href="#">payment options</a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>online shop</h4>
+								<ul>
+									<li><a href="#">watch</a></li>
+									<li><a href="#">bag</a></li>
+									<li><a href="#">shoes</a></li>
+									<li><a href="#">dress</a></li>
+								</ul>
+							</div>
+							<div class="footer-col">
+								<h4>follow us</h4>
+								<div class="social-links">
+									<a href="#"><img src="f.png" id="fa"></a>
+									<a href="#"><img src="lik.png"  id="fa"></a>
+									<a href="#"><img src="t.png" id="fa"></a>
+									<a href="#"><img src="int.png" id="fa"></a>
+									
+								</div>
+							</div>
+						</div>
+							<li><a href="#home" id="hm" class="navbar-link"> TOP↑ </a></li>
+					</div>
+					<p id="pa">PrivacyPolicies.com © 2002 - 2022 All rights reserved </p>
+				</footer>
 				<script
 					type="module"
 					src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
